@@ -9,10 +9,10 @@ public class Main
 	{
     //DECLARATION + INITIALIZATION SECTION
     double initialAmount = 1.68; 
-    int = centsRemaining = 0;
-    int = numQuarters = 0;
-    int = numDimes = 0;
-    int = numNickles = 0;
+    int centsRemaining = 0;
+    int numQuarters = 0;
+    int numDimes = 0;
+    int numNickles = 0;
 
 
     //CALCULATION SECTION
@@ -27,6 +27,11 @@ public class Main
 
 
     //OUTPUT SECTION
+    System.out.println(centsRemaining);
+    System.out.println(numQuarters);
+    System.out.println(numDimes);
+    System.out.println(numNickles);
+    
      System.out.printf("$%.2f can be coverted to %d quarters, %d dimes, %d nickles, and % pennies.",initialAmount,numQuarters,numDimes,numNickles,centsRemaining);
     
   }
